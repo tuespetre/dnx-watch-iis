@@ -17,7 +17,7 @@ Open IIS Manager, open the root server node and then open the configuration mana
 
 In the configuration manager, go to the `system.applicationHost/applicationPools` sections and click the button to open the collection editor for `environmentVariables` under `applicationPoolDefaults`.
 
-<blockquote><strong>Note:</strong> If you are not running Windows 10 and thus do not have IIS 10, you cannot set the environment variables for the application pool. You may instead set these up as system environment variables.</blockquote>
+<blockquote><strong>Note:</strong> If you are not running Windows 10 and thus do not have IIS 10, you cannot set the environment variables for the application pool. You may instead set these up as system environment variables. Setting the <code>%DNX_PATH%</code> variable as an environment variable under the <code>httpPlatform</code> configuration section does not work.</blockquote>
 
 <img src="https://github.com/tuespetre/dnx-watch-iis/blob/master/7-env-variables-option.png" />
 
