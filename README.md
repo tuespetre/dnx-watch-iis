@@ -1,5 +1,9 @@
 # dnx-watch-iis
-How to configure the save-and-refresh development experience for ASP.NET 5 with a local IIS server on Windows 10.
+How to configure the save-and-refresh development experience for ASP.NET Core with a local IIS server on Windows 10.
+
+> **This guide is for RC1 only**
+>
+> Please note that this guide is written for RC1 only. As RC2 gets closer, or when it is released, I plan to write an updated version detailing the steps to obtain the save-and-refresh development experience using RC2.
 
 ## Setting up IIS for all projects
 
